@@ -1,0 +1,14 @@
+
+
+.navlink{
+   font-size: 15px;
+   line-height: 20px;
+   color:#28224B;
+   transition: color 1s;
+}
+.navlink:hover{
+   color:#6b61a3;
+}
+.active{
+   color:#35B8BE;
+ }

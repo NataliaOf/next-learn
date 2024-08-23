@@ -1,0 +1,28 @@
+
+.blogbox{
+   display: grid;
+   grid-template-columns:  300px  1fr;
+
+}
+
+.aside{
+   padding: 5px;
+    background-color: #fff;
+    border: #35B8BE  solid 1px;
+    color:#28224B;
+    /* grid-area: aside; */
+ }
+
+ .blogInfo{
+   padding: 10px;
+   border: 1px solid #35B8BE;
+ }
+ .blogTitle{
+   flex: 1 1 300px;
+   
+ }
+ .postLink{
+   border: 1px solid #35B8BE;
+   margin-bottom: 10px;
+ }
+ 

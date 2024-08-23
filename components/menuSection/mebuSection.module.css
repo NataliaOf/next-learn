@@ -1,0 +1,48 @@
+.menuSection{
+   text-align: center;
+}
+
+.instruction{
+   max-width: 465px;
+   margin: 0 auto;
+   margin-bottom: 50px;
+   text-align: center;
+   color:#546285;
+   line-height: 27px;
+}
+.battonBox{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap:30px;
+   margin-bottom: 30px;
+}
+.menuBox{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   margin-bottom: 60px;
+}
+.cartMenu{
+   text-align: left;
+   max-width: 580px;
+}
+.cartMenuTitle{
+color:#08090A;
+font-size: 18px;
+line-height: 20px;
+margin-bottom: 20px;
+display: flex;
+justify-content: space-between;
+}
+
+.cartMenuTitle>span{
+   color: #35B8BE;
+   font-size: 15px;
+  
+}
+.cartMenuText{
+   color:#546285;
+   font-size: 16px;
+   line-height: 24px;
+   margin-bottom: 10px;
+}
